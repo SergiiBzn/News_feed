@@ -1,10 +1,8 @@
 import React from 'react';
-import MainFeedItem from '../main-feed-item/MainFeedItem';
+import { MainFeedItem } from '../main-feed-item';
 
-function MainFeed() {
+export function MainFeed() {
   return (
     <MainFeedItem />
   );
 }
-
-export default MainFeed;
