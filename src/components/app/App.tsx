@@ -1,12 +1,12 @@
 import React from 'react';
 // import logo from '../../logo';
-import AppHeader from '../app-header/AppHeader';
-import MainFeed from '../main-feed/MainFeed';
-import SearchPanel from '../search-panel/SearchPanel';
+import { AppHeader } from '../app-header';
+import { MainFeed } from '../main-feed';
+import { SearchPanel } from '../search-panel';
 
 import './App.css';
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <AppHeader />
@@ -14,9 +14,6 @@ function App() {
         <MainFeed />
         <SearchPanel />
       </div>
-  
     </div>
   );
 }
-
-export default App;
