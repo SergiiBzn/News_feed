@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchPanel() {
+const SearchPanel = () => {
   return(
     <input placeholder='Искать' />
   )

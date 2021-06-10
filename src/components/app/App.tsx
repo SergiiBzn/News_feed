@@ -1,22 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import logo from '../../logo';
-import AppHeader from '../app-header/AppHeader';
-import MainFeed from '../main-feed/MainFeed';
-import SearchPanel from '../search-panel/SearchPanel';
+import AppHeader from '../app-header';
+import MainFeed from '../main-feed';
+import SearchPanel from '../search-panel';
+import Filter from '../filter';
 
-import './App.css';
+import './app.css';
 
-function App() {
-  return (
-    <div className="App">
-      <AppHeader />
-      <div className="search-panel d-flex">
+export default class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <div className=''>
+          <AppHeader />
+          <SearchPanel />
+        </div>
         <MainFeed />
-        <SearchPanel />
+        <Filter />
       </div>
-  
-    </div>
-  );
+    );
+  }
 }
-
-export default App;
