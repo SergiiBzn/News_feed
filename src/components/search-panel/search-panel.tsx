@@ -1,9 +1,8 @@
 import React from 'react';
 
-const SearchPanel = () => {
+export const SearchPanel = () => {
   return(
     <input placeholder='Искать' />
   )
 }
 
-export default SearchPanel;

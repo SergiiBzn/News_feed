@@ -1,10 +1,9 @@
 import React from 'react';
-import MainFeedItem from '../main-feed-item';
+import {MainFeedItem} from '../main-feed-item';
 
-const MainFeed = () => {
+export const MainFeed = () => {
   return (
     <MainFeedItem />
   )
 };
 
-export default MainFeed;
