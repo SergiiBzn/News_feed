@@ -1,0 +1,23 @@
+.filter {
+  margin-top: 60px;
+  margin-left: 45px;
+  margin-bottom: auto;
+  background-color: #fdfdfd;
+  background-size: cover;
+  border-radius: 20px 20px 20px 20px;
+  padding: 25px;
+}
+
+.filterTitle {
+  padding-bottom: 20px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.categories {
+  
+  list-style: none;
+  color: grey;
+  line-height: 35px;
+}
