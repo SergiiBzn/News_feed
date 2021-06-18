@@ -7,7 +7,7 @@ import { Filter } from '../filter';
 
 import './app.css';
 
-export const App = () => {
+export const App: React.FC = () => {
   return (
     <div className="app">
       <div className="app-header search-panel">
