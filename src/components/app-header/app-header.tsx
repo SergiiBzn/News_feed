@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { BsHouseDoor } from 'react-icons/bs';
 import { BsFilm } from 'react-icons/bs';
 import { BsBarChart } from 'react-icons/bs';
@@ -8,11 +8,21 @@ import { BsBell } from 'react-icons/bs';
 
 import './app-header.css';
 
-export const AppHeader = () => {
-  return (
-    <div className="app-header">
+interface AppHeaderState {
+  choose: string;
+}
+
+interface AppHeaderProps {
+
+}
+
+export class AppHeader extends Component<AppHeaderProps, AppHeaderState> {
+
+  render() {
+    return (
+      <div className="app-header">
       <h1>NEWS</h1>
-      <ul className="app-header-ul">
+      <ul className="app-header-ul" >
         <li>
           <BsHouseDoor className="home" />
           Home
@@ -37,5 +47,6 @@ export const AppHeader = () => {
         </li>
       </ul>
     </div>
-  );
-};
+    )
+  }
+}

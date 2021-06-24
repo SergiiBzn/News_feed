@@ -5,6 +5,7 @@ import './main-feed.css';
 
 import moon from './images/moon.jpg';
 import flowers from './images/flowers.jpg';
+import summer from './images/summer.jpg';
 
 export interface IMainFeedItem {
   image?: string;
@@ -26,6 +27,7 @@ const data: IData[] = [
   },
   {
     id: '13',
+    image: summer,
     title: 'Video',
     content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, ipsam unde corrupti`
   },
