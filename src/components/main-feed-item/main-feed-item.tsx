@@ -3,9 +3,7 @@ import { IMainFeedItem } from 'components';
 
 import './main-feed-item.css';
 
-interface IMainFeedItemProps extends IMainFeedItem {}
-
-export const MainFeedItem = ({image, alt, title, content}: IMainFeedItemProps) => {
+export const MainFeedItem = ({image, alt, title, content}: IMainFeedItem) => {
   return (
     <li className="main-feed-item">
       <h3>{title}</h3>

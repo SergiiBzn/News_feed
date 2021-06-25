@@ -30,8 +30,9 @@
   padding: 3px;
 }
 
-.app-header-ul {
-  font-size: 18px;
+.list {
+  display: flex;
+  align-items: center;
 }
 
 .app-header-ul li {
@@ -39,38 +40,13 @@
   align-items: center;
 }
 
-.home {
+.icons {
+  font-size: 20px;
   width: 20px;
   height: 20px;
   padding-right: 15px;
 }
 
-.video {
-  width: 18px;
-  height: 18px;
-  padding-right: 15px;
-}
-
-.pools {
-  width: 20px;
-  height: 20px;
-  padding-right: 15px;
-}
-
-.magazine {
-  width: 20px;
-  height: 20px;
-  padding-right: 15px;
-}
-
-.check {
-  width: 22px;
-  height: 22px;
-  padding-right: 15px;
-}
-
-.bel {
-  width: 22px;
-  height: 22px;
-  padding-right: 15px;
+.names {
+  font-size: 18px;
 }
