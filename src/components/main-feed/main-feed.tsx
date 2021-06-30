@@ -40,7 +40,7 @@ const data: IData[] = [
   }
 ]
 
-export const MainFeed = () => {
+export const MainFeed: React.FC = () => {
   return (
     <ul className='ul'>
       {data.map(({id, image, alt, title, content}) => (

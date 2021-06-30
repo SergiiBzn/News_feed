@@ -6,7 +6,7 @@ function FilterItem({ name }: IFilterProps) {
   return <li>{name}</li>;
 }
 
-export const Filter = ({ id, name }: IFilterProps) => {
+export const Filter: React.FC<IFilterProps> = ({ id, name }) => {
   return (
     <div className="filter">
       <h4 className="filterTitle">Category</h4>

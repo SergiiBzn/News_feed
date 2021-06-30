@@ -3,7 +3,7 @@ import { IMainFeedItem } from 'components';
 
 import './main-feed-item.css';
 
-export const MainFeedItem = ({image, alt, title, content}: IMainFeedItem) => {
+export const MainFeedItem: React.FC<IMainFeedItem> = ({image, alt, title, content}) => {
   return (
     <li className="main-feed-item">
       <h3>{title}</h3>

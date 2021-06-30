@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from '../../logo';
 import { AppHeader } from '../app-header';
 import { MainFeed } from '../main-feed';
 import { SearchPanel } from '../search-panel';
@@ -92,11 +91,18 @@ export const dataFilter: IFilterProps[] = [
 ]
 
 export const App: React.FC = () => {
+  // const [search, setSearch] = useState([]);
+
+  const searchHandler = (searchSmt: string) => {
+    console.log('Find something', searchSmt);
+    
+  }
+
   return (
     <div className="app">
       <div className="app-header search-panel">
         <AppHeader />
-        <SearchPanel />
+        <SearchPanel onSearch={searchHandler}  />
       </div>
       <div className="main-text">
         <Filter />
